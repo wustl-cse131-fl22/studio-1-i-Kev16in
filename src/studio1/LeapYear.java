@@ -10,7 +10,6 @@ public class LeapYear {
     int currentYear = 2022;
     boolean isLeapYear = (currentYear % 4) == 0 && (currentYear % 100) > 0 && (currentYear % 400) == 0;
     System.out.println(isLeapYear);
-    
 	}
 
 }
